@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #1e1e2f;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game-container {
+  text-align: center;
+}
+
+.plane-area {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  margin: 20px auto;
+  border: 2px solid #fff;
+  overflow: hidden;
+  background: #101018;
+}
+
+#plane {
+  font-size: 30px;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  transition: transform 0.1s linear;
+}
+
+#multiplier {
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+.controls input, .controls button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+#result {
+  margin-top: 15px;
+  font-size: 18px;
+}
+￼Enter
